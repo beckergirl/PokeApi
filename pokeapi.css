@@ -1,0 +1,94 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+  height: 100vh;
+  background-color: rgb(232, 150, 221);
+
+}
+.pokename{
+    margin-top: 2.5%;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 251, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+form {
+    width: 250px;
+    margin: 20px auto;
+    justify-content: center;
+   /*  border: 1px solid rgb(245, 4, 129); */
+}
+
+input {
+    width: 260px;
+    padding: 16px;
+    border-radius: 30px;
+    text-align: center;
+    justify-self: center;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 auto;
+
+}
+
+.poke-card {
+   
+    height: fit-content;
+    max-width: 280px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: transparent;
+    justify-content: center;
+
+}
+
+.poke-card::before {
+
+  /*   font-weight: bold; */
+    border-radius: 4px;
+    height: 90%;
+    width: 70%;
+    position: absolute;
+
+}
+
+.img-container {
+    position: relative;
+    width: 300px;
+
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    font-weight: bolder;
+    color:black;
+ 
+}
+
+.poke-img {
+    width: 250px;
+    height: auto;
+    border-radius: 20%;
+    justify-content: center;
+    margin-right: 50px;
+}
